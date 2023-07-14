@@ -1,39 +1,43 @@
 # Project Title
 
-Simple overview of use/purpose.
+Your task is to create a ERC20 token and deploy it on the Avalanche network for Degen Gaming. The smart contract should have the following functionality:
+
+Minting new tokens: The platform should be able to create new tokens and distribute them to players as rewards. Only the owner can mint tokens.
+Transferring tokens,
+Redeeming tokens,
+Checking token balance,
+Burning tokens.
 
 ## Description
+To perform the above tasks
 
-An in-depth paragraph about your project and overview of use.
+
+- add avalanche fuji network in metamask
+- connect account to it 
 
 ## Getting Started
 
-### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
+- open the folder in cmd fork the code in remix using command
+- npm install -g @remix-project/remixd
+- after the command has successfully ran
+- type "remixd" in new cmd terminal, then
+- npx hardhat complie
+- npx hardthat node
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+- open remix
+- click on connect to injected provider
+- compile the contract
+- deploy the contract
+- test the function
+- copy the transaction address
+- paste it in the snowtrace test net
+- move under contract tab
+- check transactions
 
 ## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Deepika
 
 
 ## License
